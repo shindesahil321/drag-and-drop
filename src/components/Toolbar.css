@@ -1,0 +1,12 @@
+/* src/components/Toolbar.css */
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .toolbar button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  

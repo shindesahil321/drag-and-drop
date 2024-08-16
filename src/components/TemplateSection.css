@@ -1,0 +1,45 @@
+.template-section {
+    position: relative;
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px; /* Adjust margin as needed */
+    z-index: 3; /* Ensure it is above other elements */
+    box-sizing: border-box;
+  }
+  
+  .template-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .template-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between templates */
+  }
+  
+  .template-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    width: calc(33.333% - 20px); /* Adjust width based on the number of columns */
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .template-card:hover {
+    background: #f0f0f0;
+  }
+  
+  .template-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  

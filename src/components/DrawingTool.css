@@ -1,0 +1,31 @@
+/* src/components/DrawingTool.css */
+.drawing-tool {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .drawing-tool canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+  }
+  
+  .drawing-tool-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
